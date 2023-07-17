@@ -15,7 +15,8 @@
     "dotenv": "^16.1.4",
     "express": "^4.18.2",
     "lodash": "^4.17.21",
-    "ts": "^0.2.2"
+    "ts": "^0.2.2",
+    "winston": "^3.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1",

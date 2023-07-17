@@ -8,4 +8,4 @@ const setHeaders = function (req, res, next) {
     next();
 }
 
-module.exports = { setHeaders }
+export default { setHeaders }

@@ -1,4 +1,4 @@
-export class ContributionResponse {
+class ContributionResponse {
 
     constructor(
         public contribution: number
@@ -7,3 +7,5 @@ export class ContributionResponse {
     
 
 }
+
+export default ContributionResponse;

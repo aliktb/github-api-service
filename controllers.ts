@@ -1,5 +1,5 @@
-const { getMyAPI } = require('./githubservice');
-const { ContributionResponse } = require('./contributions');
+import { getMyAPI } from './githubservice';
+import ContributionResponse from './contributions';
 
 const getUser= async (req: any, res: any) => {
 
@@ -14,4 +14,4 @@ const getUser= async (req: any, res: any) => {
 }
 
 
-module.exports = { getUser }
+export default {getUser};

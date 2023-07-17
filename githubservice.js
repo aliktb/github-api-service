@@ -1,4 +1,4 @@
-const { graphql } = require("@octokit/graphql");
+import { graphql } from "@octokit/graphql";
 
 const getMyAPI = async () => {
   
@@ -36,4 +36,4 @@ const getMyAPI = async () => {
   
 };
   
-module.exports = {getMyAPI};
+export default {getMyAPI};
